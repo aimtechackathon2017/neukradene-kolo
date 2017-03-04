@@ -11,28 +11,24 @@ static MotionSensor *accelerometer = mems_expansion_board->GetAccelerometer();
 DigitalIn mybutton(USER_BUTTON);
 DigitalOut myled(LED1);
 
-/* The 4 onboard LEDs */
-DigitalOut LED_0 (PB_6);
-DigitalOut LED_1 (PA_7);
-DigitalOut LED_2 (PA_6);
-DigitalOut LED_3 (PA_5);
-
-//Serial pc(SERIAL_TX, SERIAL_RX);
-
 /* Serial port over USB */
- Serial pc(USBTX, USBRX);
+Serial pc(USBTX, USBRX);
 
 /* Serial connection to sigfox modem */
- Serial modem(PA_9, PA_10);
+//Serial modem(PA_9, PA_10);
+//Serial modem(PA_2, PA_3);
+Serial modem(PC_10, PC_11);
 
-bool ser_timeout = false;
+
 int locked = 0;
 
-/* Function prototypes */
+// fce prototypes
 void sertmout();
 bool modem_command_check_ok(char * command);
 void modem_setup();
 void txData(uint8_t btn);
+
+bool ser_timeout = false;
  
 int main() {
   int32_t axes[3];
@@ -42,6 +38,14 @@ int main() {
   int count = 0;
   float diff;
   
+  wait(3);
+  
+    pc.printf("is readable?\r\n");
+  
+    /* first clear serial data buffers */
+    while(modem.readable()) modem.getc();
+    
+    pc.printf("modem readable\r\n");
   modem_setup();
   
   while(1) {
@@ -78,8 +82,10 @@ int main() {
         
 //        printf("LSM6DS0 [acc/mg]:      %f, %f, %f\r\n", avg[0], avg[1], avg[2]);
         
+        modem_command_check_ok("AT");
+        
         if (diff > ACC_TRESHOLD) {
-            printf("Covece kradou ti KOLO!\r\n");
+            printf("\r\nCovece kradou ti KOLO!\r\n");
         }
         
         last_avg[0] = avg[0];
@@ -88,10 +94,10 @@ int main() {
     }
     
     printf(".");
-    
     wait(0.1);
   }
 }
+
 
 
 /* TX data over Sigfox */
@@ -136,6 +142,7 @@ void modem_setup()
 /* ISR for serial timeout */
 void sertmout()
 {
+    pc.printf("serial timeouted!\r\n");
     ser_timeout = true;
 }
 
