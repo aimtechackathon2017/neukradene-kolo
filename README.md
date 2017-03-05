@@ -1,5 +1,8 @@
 # neukradene-kolo
 
+## motivace
+- vyuzit motian senzor k detekci pohybu kola. Nofikovat uzivatele (nezavisle na poloze).
+
 ## platforma
 - Nucleo-LO53R8
 - Nucleo-IKS01A1 expansion board
