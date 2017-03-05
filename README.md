@@ -9,3 +9,6 @@
 - WiSOL Sigfox SFM10R1
 - GPS GY-NEOMV2
 - Arduino Nano v.3 ATmega328
+
+## prototyp
+![Prototyp](img/IMG_20170305_085653.jpg)
