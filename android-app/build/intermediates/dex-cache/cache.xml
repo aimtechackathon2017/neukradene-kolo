@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="169982910ef503be0ae6a7a290854b82a3e762ad">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0da7809be81db40928fc7cc492a92b676a5ce34c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/cbbc733f78b8e6d41298782b54bebcebb10ba158/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_1db7d039ea82c099ddbd66b7fedc3c31aeef58cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/libs/notification-hubs-0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="341cf8ef72f7244597c95190386787eef19120a4">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/notification-hubs-0.4_37c165945984775f631c53e6b757cadcea8407e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_0556b217c40152a4b761f8df9dbff03f3d77629b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/a305d675ab31f8b25316d1fd605d6cb6dbf86c1e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_964ac05e181974108d8f54b2df793eb3bd7edb96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/0420041e2ce6a4cc67e53ead68f46f27de3a2880/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_e7fb610ba012e5f266dfec0a875113447507b3d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/2944a9fb484f225d9491ab6803767ad06c263853/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_d442e198aa9e6bf0c45b57922d41d943c8f1a98e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/04486e8a5790f69e8c6cb92da496c887eb2aab38/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_3ebbf5f3eb205737e6f9af5aa60ec595677b27bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/af89351a921563ad04b3f34412b06c181d1b4407/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c322af100020e6db539f2aa367698d4b88fc453f">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/classes_34f8944a1b67cb6452efe0e18f708e9e793b02fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Marek/.android/build-cache/cbbc733f78b8e6d41298782b54bebcebb10ba158/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_2a474a1fde05f2bd36354bb54c5f983f03a03522.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/libs/notification-hubs-0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="341cf8ef72f7244597c95190386787eef19120a4">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/transforms/dex/debug/folders/1000/2/notification-hubs-0.4_37c165945984775f631c53e6b757cadcea8407e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Marek/aprojects/cvut/pda/AndroidNotifications-Azure-NotificationHub/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e39c973d5405b5f3e84ddc2c1a3c9d2f9dfbe21e/classes.dex" />
+    </item>
+
+</items>
